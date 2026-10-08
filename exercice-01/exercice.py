@@ -18,3 +18,4 @@ print(f"le total arrondi à 2 décimales est : {round(total_ttc, 2)}")
 prix_texte= "19.90"
 
 
+
