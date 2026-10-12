@@ -16,5 +16,8 @@ f"le total arrondi à 2 décimales est : {round(total_ttc, 2)}"
 print(f"le total arrondi à 2 décimales est : {round(total_ttc, 2)}")
 
 prix_texte= "19.90"
-
+prix_ht = float(prix_texte)
+total_ht = prix_ht * quantité
+total_ttc = total_ht * (1 + taux_tva)
+print(f"{quantité} x {produit} : {total_ttc:2f} euros TTC")
 
